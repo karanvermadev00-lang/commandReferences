@@ -1,0 +1,20 @@
+ssh \
+-L 9000:localhost:9000 \
+-L 9443:localhost:9443 \
+-L 8090:localhost:8090 \
+-L 3001:localhost:3001 \
+-L 3002:localhost:3002 \
+-L 9400:localhost:9400 \
+-L 9090:localhost:9090 \
+-L 9091:localhost:9091 \
+-L 8081:localhost:8081 \
+-L 8085:localhost:8085 \
+-L 8080:localhost:8080 \
+-L 5432:localhost:5432 \
+-L 3307:localhost:3307 \
+-L 8099:localhost:80 \
+-L 2244:localhost:22 \
+-L 2222:localhost:2222 \
+-L 3307:localhost:3307 \
+-L 8090:localhost:8090 \
+aiherbarium@192.168.1.77
